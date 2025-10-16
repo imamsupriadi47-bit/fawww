@@ -1,21 +1,30 @@
 body {
-  background-color: #FFFFE0; /* warna kuning cerah */
-  font-family: Ariel, sans-serif; /* jenis huruf yang bersih dan mudah */
-  color: #191970; /* warna teks utama (putih) */
+    background-color: #FFFFE0; /* warna kuning cerah */
+    /* Perbaikan 1: Ganti font-family dari 'Ariel' menjadi 'Arial' (nama font yang umum) */
+    font-family: Arial, sans-serif; /* jenis huruf yang bersih dan mudah */
+    
+    /* Perbaikan 2: Sesuaikan komentar dengan kode, atau ubah nilai warna jika ingin putih */
+    color: #191970; /* warna teks utama (Midnight Blue) */ 
+    /* Jika Anda benar-benar ingin warna teks putih: color: #FFFFFF; */
 }
 
 .kartu-profil {
     width: 300px;
     margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-    padding: 20px; /* hitam */
+    padding: 20px;
+    /* Rekomendasi 1: Tambahkan deskripsi warna pada padding jika warna tersebut penting */
     background-color: blue;
-    border-radius:15px; /* membuat sudut menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* Efek bayangan */
-    teks-align: center; /* menengah semua teks di dalam kartu */ 
+    border-radius: 15px; /* membuat sudut menjadi melengkung */
+    
+    /* Perbaikan 3: Hapus argumen ke-5 dan perbaiki nilai opacity (alpha) pada rgba() */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan (0.2 adalah opasitas ringan) */
+    
+    /* Perbaikan 4: Koreksi typo dari 'teks-align' menjadi 'text-align' */
+    text-align: center; /* menengahkan semua teks di dalam kartu */
 }
-
 
 .kartu-profil img {
     width: 150px;
-    border-radius: 50%; trik untuk membuat gambar persegi menjadi lingkaran*/
+    /* Rekomendasi 2: Lebih tepatnya, trik untuk membuat gambar kotak (square) menjadi lingkaran */
+    border-radius: 50%; 
 }
